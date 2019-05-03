@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:background="@color/colorPrimary"
+>
+
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Welcome To App"
+              android:textColor="#fff"
+              android:padding="19dp"
+              android:gravity="center"
+              android:textSize="30dp"
+
+    />
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="Nama"
+              android:textColorHint="#fff"
+              android:textColor="#fff"
+              android:textSize="20dp"
+              android:id="@+id/InputNama"
+    />
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="Status"
+              android:textColorHint="#fff"
+              android:textColor="#fff"
+              android:textSize="20dp"
+              android:id="@+id/InputStatus"
+    />
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SAVE"
+            android:id="@+id/btnSave"
+            android:textSize="20dp"
+            android:layout_margin="30dp"
+            android:textColor="@color/colorAccent"
+
+    />
+
+</LinearLayout>
